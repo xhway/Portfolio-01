@@ -10,7 +10,7 @@ body{
 h2,
 h3{
     text-align: center;
-    color: grey;
+    color: yellowgreen;
 }
 header{
  padding:60px;
@@ -24,26 +24,20 @@ header{
 img{
     border-radius:50%;
     width:300px;
-    box-shadow: 20px 10px 30px darkgrey;
+    box-shadow: 20px 10px 30px yellowgreen;
     
 }
 header h1{
     display:inline-block;
 }
 header nav{
-    padding top:15px;
-    margin-right:20px;
     float:right;
-    font-size:20px;
-    
 }
 
-header nav ul{
-    list-style-type:georgian;
-}
-header nav ul li{
+.header nav ul li{
     display:inline-block;
-    margin-left:25px;
+    margin-right:25px;
+    list-style-type:none;
 }
 h3{
     font-size: 20px;
@@ -65,21 +59,14 @@ a{
 .box {
     display:flex;
     flex-direction:column;
-    
     font-family:'Georgia', serif, bolder;
     margin:10px;
     width:50%;
     background:navy;
     border: 1px solid grey;
-   color:grey;
-    
-    
+    color:grey; 
 }
-.box-DH{
-  
-  color:grey;
- 
-}
+
 
 
 button{
@@ -99,28 +86,5 @@ button:hover{
     background-color:darkgrey;
 
 }
-p{
-    text-decoration-line: dotted
-}
-.box-goals{
 
-height:50%;
-width:100%;
-color:grey;
-}
-main,
-nav{
-    display:flex;
-    flex-direction: row;
-}
-.display-block{
-    display: block;
-}
-.display-inline{
-    display:inline;
-}
-
-.display-none{
-    display:none;
-}
 
